@@ -19,6 +19,8 @@
           class="com.example.dependencyInjection.CricketCoach">
 
         <property name="fortuneService" ref="myFortuneService" />
+        <property name="emailAddress" value="howdy@noemail.com" />
+        <property name="team" value="The Red Sox" />
         <constructor-arg ref="myFortuneService" />
     </bean>
 

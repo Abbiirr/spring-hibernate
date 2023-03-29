@@ -32,6 +32,10 @@ public class MyApp {
 		// call method to get daily fortune
 		System.out.println(theCoach1.getDailyFortune());
 
+		System.out.println(theCoach1.getTeam());
+
+		System.out.println(theCoach1.getEmailAddress());
+
 		// close the context
 		context1.close();
 	}

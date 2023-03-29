@@ -6,12 +6,12 @@
 
     <!-- services -->
     <bean id="myFortuneService"
-          class="com.example.demo1.HappyFortuneService">
+          class="com.example.dependencyInjection.HappyFortuneService">
     </bean>
 
     <bean id="myCoach"
-          class="com.example.demo1.TrackCoach">
-        <property name="fortuneService" ref="myFortuneService" />
+          class="com.example.dependencyInjection.TrackCoach">
+<!--        <property name="fortuneService" ref="myFortuneService" />-->
         <constructor-arg ref="myFortuneService" />
     </bean>
 

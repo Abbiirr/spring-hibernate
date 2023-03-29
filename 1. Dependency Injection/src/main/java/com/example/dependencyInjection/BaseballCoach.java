@@ -1,4 +1,4 @@
-package com.example.dependency.injection;
+package com.example.dependencyInjection;
 
 public class BaseballCoach implements Coach {
 
@@ -6,8 +6,8 @@ public class BaseballCoach implements Coach {
 	private FortuneService fortuneService;
 	
 	// define a constructor for dependency injection
-	public BaseballCoach(FortuneService theFortuneService) {
-		fortuneService = theFortuneService;
+	public BaseballCoach(FortuneService fortuneService) {
+		this.fortuneService = fortuneService;
 	}
 	
 	@Override

@@ -1,4 +1,4 @@
-package com.example.dependency.injection;
+package com.example.dependencyInjection;
 
 public class TrackCoach implements Coach {
 

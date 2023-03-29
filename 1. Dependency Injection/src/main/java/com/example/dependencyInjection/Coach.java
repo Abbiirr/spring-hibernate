@@ -1,4 +1,4 @@
-package com.example.dependency.injection;
+package com.example.dependencyInjection;
 
 public interface Coach {
 
